@@ -81,6 +81,8 @@ public class Login_Welcome extends JFrame implements ActionListener
 	}
 	public Login_Welcome(String n)
 	{
+	        if(name.trim().equals(""))                 //if name field is empty
+		   //Display error message
 		name=n;
 		//System.out.println(name);
 	}
